@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 07 - Part 5</title>
+    <script>
+        // Step 5
+        window.document.addEventListener("DOMContentLoaded", init);
+        function init() {
+            var btn_5 = window.document.getElementById("btn5");
+            btn_5.addEventListener("click", function () {              
+                "use strict";
+                window.alert("I have been clicked");
+            });
+        }
+        </script>
+</head>
+<body>
+    <button onclick="show_msg()">Click Me HTML attribute</button>
+    <button id = "btn2">Click Me Element ID</button>
+    <button id = "btn3">Click Me User defined</button>
+    <button id = "btn4">Click Me Callback</button>
+    <button id = "btn5">Click Me Callback</button>
+    <script src="Javascript/DOM-pratice.js"></script>
+</body>
+</html>
